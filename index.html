@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>La Super Scatola</title>
+  <style>
+  /*** uncss> filename: index.css ***/
+  /*! bulma.io v0.6.1 | MIT License | github.com/jgthms/bulma *//*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */body,html,p{margin:0;padding:0}button,input{margin:0}html{-webkit-box-sizing:border-box;box-sizing:border-box}*{-webkit-box-sizing:inherit;box-sizing:inherit}:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}section{display:block}body,button,input{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif}body{color:#4a4a4a;font-size:1rem;font-weight:400;line-height:1.5}.is-hidden{display:none!important}.button{-moz-appearance:none;-webkit-appearance:none;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid transparent;border-radius:3px;-webkit-box-shadow:none;box-shadow:none;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;font-size:1rem;height:2.25em;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;line-height:1.5;padding-bottom:calc(.375em - 1px);padding-left:calc(.625em - 1px);padding-right:calc(.625em - 1px);padding-top:calc(.375em - 1px);position:relative;vertical-align:top;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#fff;border-color:#dbdbdb;color:#363636;cursor:pointer;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-left:.75em;padding-right:.75em;text-align:center;white-space:nowrap}.button:active,.button:focus{outline:0}.button:hover{border-color:#b5b5b5;color:#363636}.button:focus{border-color:#3273dc;color:#363636}.button.is-focused:not(:active),.button:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(50,115,220,.25);box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.button:active{border-color:#4a4a4a;color:#363636}.button.is-white.is-focused:not(:active),.button.is-white:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(255,255,255,.25);box-shadow:0 0 0 .125em rgba(255,255,255,.25)}.button.is-black.is-focused:not(:active),.button.is-black:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(10,10,10,.25);box-shadow:0 0 0 .125em rgba(10,10,10,.25)}.button.is-light.is-focused:not(:active),.button.is-light:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(245,245,245,.25);box-shadow:0 0 0 .125em rgba(245,245,245,.25)}.button.is-dark.is-focused:not(:active),.button.is-dark:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(54,54,54,.25);box-shadow:0 0 0 .125em rgba(54,54,54,.25)}.button.is-primary{background-color:#00d1b2;border-color:transparent;color:#fff}.button.is-primary:hover{background-color:#00c4a7;border-color:transparent;color:#fff}.button.is-primary:focus{border-color:transparent;color:#fff}.button.is-primary.is-focused:not(:active),.button.is-primary:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(0,209,178,.25);box-shadow:0 0 0 .125em rgba(0,209,178,.25)}.button.is-primary:active{background-color:#00b89c;border-color:transparent;color:#fff}.button.is-link.is-focused:not(:active),.button.is-link:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(50,115,220,.25);box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.button.is-info{background-color:#209cee;border-color:transparent;color:#fff}.button.is-info:hover{background-color:#1496ed;border-color:transparent;color:#fff}.button.is-info:focus{border-color:transparent;color:#fff}.button.is-info.is-focused:not(:active),.button.is-info:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(32,156,238,.25);box-shadow:0 0 0 .125em rgba(32,156,238,.25)}.button.is-info:active{background-color:#118fe4;border-color:transparent;color:#fff}.button.is-success.is-focused:not(:active),.button.is-success:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(35,209,96,.25);box-shadow:0 0 0 .125em rgba(35,209,96,.25)}.button.is-warning.is-focused:not(:active),.button.is-warning:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(255,221,87,.25);box-shadow:0 0 0 .125em rgba(255,221,87,.25)}.button.is-danger.is-focused:not(:active),.button.is-danger:focus:not(:active){-webkit-box-shadow:0 0 0 .125em rgba(255,56,96,.25);box-shadow:0 0 0 .125em rgba(255,56,96,.25)}.container{margin:0 auto;position:relative}@media screen and (min-width:1024px){.container{max-width:960px;width:960px}}@media screen and (min-width:1216px){.container{max-width:1152px;width:1152px}}@media screen and (min-width:1408px){.container{max-width:1344px;width:1344px}}.input{-moz-appearance:none;-webkit-appearance:none;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid transparent;border-radius:3px;-webkit-box-shadow:none;box-shadow:none;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;font-size:1rem;height:2.25em;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;line-height:1.5;padding-bottom:calc(.375em - 1px);padding-left:calc(.625em - 1px);padding-right:calc(.625em - 1px);padding-top:calc(.375em - 1px);position:relative;vertical-align:top;background-color:#fff;border-color:#dbdbdb;color:#363636;-webkit-box-shadow:inset 0 1px 2px rgba(10,10,10,.1);box-shadow:inset 0 1px 2px rgba(10,10,10,.1);max-width:100%;width:100%}.input:active,.input:focus{outline:0}.input::-moz-placeholder{color:rgba(54,54,54,.3)}.input::-webkit-input-placeholder{color:rgba(54,54,54,.3)}.input:-moz-placeholder{color:rgba(54,54,54,.3)}.input:-ms-input-placeholder{color:rgba(54,54,54,.3)}.input:hover{border-color:#b5b5b5}.input:active,.input:focus{border-color:#3273dc;-webkit-box-shadow:0 0 0 .125em rgba(50,115,220,.25);box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.label{color:#363636;display:block;font-size:1rem;font-weight:700}.label:not(:last-child){margin-bottom:.5em}.control{font-size:1rem;position:relative;text-align:left}.subtitle,.title{word-break:break-word}.title:not(:last-child){margin-bottom:1.5rem}.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125}.title:not(.is-spaced)+.subtitle{margin-top:-1.5rem}.subtitle{color:#4a4a4a;font-size:1.25rem;font-weight:400;line-height:1.25}@media screen and (min-width:1024px){a.navbar-item.is-active:not(:hover),a.navbar-link.is-active:not(:hover){background-color:transparent}}.column{display:block;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-negative:1;flex-shrink:1;padding:.75rem}.columns.is-mobile>.column.is-narrow{-webkit-box-flex:0;-ms-flex:none;flex:none}@media screen and (min-width:769px),print{.column.is-narrow{-webkit-box-flex:0;-ms-flex:none;flex:none}}.columns{margin-left:-.75rem;margin-right:-.75rem;margin-top:-.75rem}.columns:last-child{margin-bottom:-.75rem}.columns:not(:last-child){margin-bottom:calc(1.5rem - .75rem)}.columns.is-mobile{display:-webkit-box;display:-ms-flexbox;display:flex}.columns.is-multiline{-ms-flex-wrap:wrap;flex-wrap:wrap}@media screen and (min-width:769px),print{.columns:not(.is-desktop){display:-webkit-box;display:-ms-flexbox;display:flex}}.hero{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.hero.is-primary{background-color:#00d1b2;color:#fff}.hero.is-primary .title{color:#fff}.hero.is-primary .subtitle{color:rgba(255,255,255,.9)}.hero.is-primary.is-bold{background-image:linear-gradient(141deg,#009e6c 0,#00d1b2 71%,#00e7eb 100%)}.hero-body{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-negative:0;flex-shrink:0;padding:3rem 1.5rem}.section{padding:3rem 1.5rem}
+  /*# sourceMappingURL=bulma.min.css.map */
+  </style>
+</head>
+<body>
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="title">
+        La Super Scatola
+      </div>
+      <div class="subtitle">
+        Creata Apposta per te
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <p>
+          Imposta le tre dimensioni in mm.<br>
+          Usa il punto per i decimali.<br>
+          Le altre opzioni dovrebbero andare bene sui valori preimpostati, lasciale così.<br>
+          Goditi La Super scatola fatta apposta per te! 😊
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-mobile is-multiline">
+        <div class="column is-narrow">
+          <div class="field">
+            <div class="label">
+              larghezza
+            </div>
+            <div class="control">
+              <input class="input" type="text" value="100" name="w"></input>
+            </div>
+          </div>
+        </div>
+        <div class="column is-narrow">
+          <div class="field">
+            <div class="label">
+              lunghezza
+            </div>
+            <div class="control">
+              <input class="input" type="text" value="100" name="h"></input>
+            </div>
+          </div>
+        </div>
+        <div class="column is-narrow">
+          <div class="field">
+            <div class="label">
+              altezza
+            </div>
+            <div class="control">
+              <input class="input" type="text" value="10" name="z"></input>
+            </div>
+          </div>
+        </div>
+        <div class="column is-narrow">
+          <div class="field">
+            <div class="label">
+              spessore carta
+            </div>
+            <div class="control">
+              <input class="input" type="text" value="1.5"  name="s"></input>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <button  id="options-btn" class="button is-info" onclick=ShowOption()>
+            Altre opzioni
+          </button>
+        </div>
+      </div>
+      <div id="options" class="is-hidden">
+        <div class="columns is-mobile is-multiline">
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                raggio laterale
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="10" name="r1"></input>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                raggio inferiore
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="5" name="r2"></input>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                raggio punta
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="10" name="r3"></input>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                punta
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="15" name="p"></input>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                bordo taglio
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="15" name="bt"></input>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="field">
+              <div class="label">
+                distanza taglio
+              </div>
+              <div class="control">
+                <input class="input" type="text" value="0"  name="dt"></input>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <button class="button is-primary" onclick=CreaScatola()>
+            Crea la scatola
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+<script>
+(function(a,c){"function"===typeof define&&define.amd?define([],c):"object"===typeof exports?module.exports=c():a.SvgPath=c()})(this,function(){function a(){if(this instanceof a)this.relative=!1,this.commands=[];else return new a}function c(b){var p=0<b.length&&b.slice?b:Array.prototype.slice.call(arguments,0);this.name=p[0];this.args=p.slice(1)}var h="MZLHVCSQTA".split(""),q=h.map(function(b){return b.toLowerCase()}),h=h.concat(q);a.prototype.rel=function(){this.relative=!0;return this};a.prototype.abs=
+function(){this.relative=!1;return this};a.prototype.close=function(){return this.Z()};a.prototype.to=function(b,p){var a="object"===typeof b?b:{x:b,y:p};return this._cmd("M")(a.x,a.y)};a.prototype.line=function(b,a){var g="object"===typeof b?b:{x:b,y:a};return this._cmd("L")(g.x,g.y)};a.prototype.hline=function(b){return this._cmd("H")(b)};a.prototype.vline=function(b){return this._cmd("V")(b)};a.prototype.bezier3=function(b,a,g,c,k,d){var e="object"===typeof b,f=e?3>arguments.length:6>arguments.length,
+l={x:b,y:a},m={x:g,y:c},n=f?m:{x:k,y:d};e&&(l=b,m=a,n=f?m:g);return f?this._cmd("S")(l.x,l.y,n.x,n.y):this._cmd("C")(l.x,l.y,m.x,m.y,n.x,n.y)};a.prototype.bezier2=function(b,a,g,c){var k="object"===typeof b,d=k?2>arguments.length:4>arguments.length,e={x:b,y:a},f=d?e:{x:g,y:c};k&&(e=b,f=d?e:a);return d?this._cmd("T")(f.x,f.y):this._cmd("Q")(e.x,e.y,f.x,f.y)};a.prototype.arc=function(b,a,c,h,k,d,e){d="object"===typeof d?d:{x:d,y:e};return this._cmd("A")(b,a,c,h,k,d.x,d.y)};a.prototype.str=function(){return this.commands.map(function(b){return b.toString()}).join(" ")};
+h.forEach(function(b){a.prototype[b]=function(){var a=Array.prototype.slice.call(arguments,0);a.unshift(b);a=new c(a);this.commands.push(a);return this}});a.prototype._cmd=function(a){return this[this.relative?a.toLowerCase():a.toUpperCase()].bind(this)};c.prototype.toString=function(){return this.name+" "+this.args.join(" ")};return a});
+function ShowOption(){var a=document.querySelector('#options-btn'),b=document.querySelector('#options');'Altre opzioni'==a.innerText?(a.innerText='Meno opzioni',b.className=''):(a.innerText='Altre opzioni',b.className='is-hidden')}function download(a,b){var c=document.createElement('a');c.setAttribute('href','data:text/plain;charset=utf-8,'+encodeURIComponent(b)),c.setAttribute('download',a),c.style.display='none',document.body.appendChild(c),c.click(),document.body.removeChild(c)}function CreaScatola(){mm={},values=document.querySelectorAll('input');for(v of values)if(mm[v.name]=1*v.value,0>1*v.value)return void alert('i valori devono essere positivi');return mm.l1=2*mm.z,mm.l2=mm.h-5,mm.l2b=mm.h-10,mm.l3=10,mm.l1>mm.w/2&&(mm.l1=mm.w/2),0==mm.dt&&(mm.dt=0.6*mm.h),1>mm.l2b-mm.l3?void alert('lunghezza troppo piccola'):mm.w-2*mm.bt<mm.p+15?void alert('bordo taglio troppo grande'):mm.dt>mm.l2-5?void alert('distanza taglio troppo grande'):void(o={x:mm.l1+mm.z,y:mm.l2+mm.z+2*mm.s},emb1=SvgPath().M(o.x,o.y-mm.s).v(mm.h+2*mm.s).h(mm.w).v(-mm.h-2*mm.s).str()+' z',emb2=SvgPath().M(o.x-mm.z,o.y-mm.z-2*mm.s).v(mm.h+2*mm.z+5*mm.s).h(mm.w+2*mm.z).v(-mm.h-2*mm.z-5*mm.s).str()+' z',cut1=SvgPath().M(o.x+mm.bt,mm.dt).h(mm.w-2*mm.bt),0<mm.s&&(cut1=cut1.v(mm.s).h(-(mm.w-2*mm.bt))),cut1=cut1.str()+' z',tmpl=(mm.w-mm.p)/2,tmpl2=mm.l2b-mm.l3,cut2=SvgPath().M(o.x,o.y).h(-mm.z).q(-mm.l1,0,-mm.l1,mm.r1).v(mm.h-2*mm.r1).q(0,mm.r1,mm.l1,mm.r1).h(mm.z).v(mm.z+mm.l3).c(0,mm.r3,tmpl-mm.r3,tmpl2,tmpl,tmpl2).h(mm.p).c(mm.r3,0,tmpl,-(tmpl2-mm.r3),tmpl,-tmpl2).v(-mm.z-mm.l3).h(mm.z).q(mm.l1,0,mm.l1,-mm.r1).v(-(mm.h-2*mm.r1)).q(0,-mm.r1,-mm.l1,-mm.r1).h(-mm.z).v(-(mm.z+mm.l2+2*mm.s-mm.r2)).q(0,-mm.r2,-mm.r2,-mm.r2).h(-(mm.w-2*mm.r2)).q(-mm.r2,0,-mm.r2,mm.r2).str()+' z',h=(mm.l2b+mm.l2+mm.h+2*mm.z+5*mm.s).toString(),w=(mm.w+2*mm.l1+2*mm.z).toString(),style1='fill:none;stroke:#000000;stroke-width:1px',style2='fill:none;stroke:#ff00ff;stroke-width:1px',svg='<?xml version="1.0" encoding="UTF-8" standalone="no"?>',svg+='<svg height="'+h+'" width="'+w+'">',svg+='<path d="'+emb1+'" style="'+style2+'"></path>',svg+='<path d="'+emb2+'" style="'+style2+'"></path>',svg+='<path d="'+cut1+'" style="'+style1+'"></path>',svg+='<path d="'+cut2+'" style="'+style1+'"></path>',svg+='</svg>',filename='scatola_'+mm.w.toString()+'_'+mm.h.toString()+'_'+mm.z.toString()+'.svg',download(filename,svg))}
+</script>
+</body>
+</html>
